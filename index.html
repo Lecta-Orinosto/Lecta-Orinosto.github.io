@@ -1,23 +1,32 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lecta Orinosto's Games</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<div class="container">
+<body>
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="main">
+<h1>
+  Lecta Orinosto's Games
+  </h1>
+<h3>
+  Enjoy the unimaginably enjoyable games!
+  </h3>
+  <p>
+    Some of these are listed below: </p>
+  <p>
+    Star Civilization: <a href="http://www.google.com"> Click here for rules! (not yet written)</a>
+	</p>
+	<p>
+	Mess of Nations: <a href="https://docs.google.com/document/d/11Zm6sZb6N68gVs2EW4n7B_UwM3FRUXpZ0awFxCe-1QA/edit"> Click here for rules!</a>
+	</p>
+	<p>
+	Conquest of Europe:  <a href="https://docs.google.com/document/d/1hEsFt9qklBrGUy8MCOmg9ohJZCr0GdyqgsReCmxP7OQ/edit"> Click here for rules!</a>
+  </p>
 </div>
+</body>
+</div>
+</html>
